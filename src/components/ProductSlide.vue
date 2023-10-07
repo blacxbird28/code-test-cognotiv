@@ -71,7 +71,7 @@
       handleSlideToProduct() {
         this.direction = !this.direction;
         
-        this.$emit("childDirection", this.directionProps);
+        // this.$emit("childDirection", this.directionProps);
 
         if(this.direction) {
           this.swiperProduct.slideNext();
@@ -80,10 +80,10 @@
         }
       },
     },
-    watch: { 
-      directionProps: function() { 
-        this.handleSlideToProduct()
-      }
-    }
+    // watch: { 
+    //   directionProps: function() { 
+    //     this.handleSlideToProduct()
+    //   }
+    // }
   }
 </script>

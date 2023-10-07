@@ -19,9 +19,11 @@
         <p class="text-[40px] text-black-1 font-bold leading-[48px]"
           :class="[windowHeight >= 1024 ? 'mb-[30px]' : 'mb-[10px]']">Protect your email<br /> address</p>
 
-        <input type="text" class="w-full text-center font-bold text-2xl	text-grey-2 p-[22px] bg-grey-1 rounded-[15px] mb-[50px] outline-0]" placeholder="but not in here :)">
+        <input type="text" class="w-full text-center font-bold text-2xl	text-grey-2 p-[22px] bg-grey-1 rounded-[15px] mb-[50px] outline-0" placeholder="but not in here :)">
         
-        <button @click="onHandleChange('Contact Us');" class="w-full text-center font-bold text-2xl text-white p-3.5 bg-light-yellow rounded-[15px] outline-0	leading-[48px]">Submit</button>
+        <button @click="onHandleChange('Contact Us');" class="w-full text-center font-bold text-2xl text-white p-3.5 bg-light-yellow rounded-[15px] outline-0	leading-[48px] transition ease-in duration-100
+          hover:bg-white-transparent 
+          hover:text-grey-3">Submit</button>
       </div>
     </div>
 

@@ -31,7 +31,7 @@
       @click="handleResetBack" />
     
     <!-- SLIDER -->
-    <div class="fixed transition ease-out-expo duration-700 h-screen w-[67%]"
+    <div class="fixed transition ease-out-expo duration-700 top-0 h-screen w-[67%]"
       :class="{
                 'opacity-100 visible scale-100 right-0': showAbout, 
                 'opacity-0 invisible scale-50 right-[20%]': !showAbout

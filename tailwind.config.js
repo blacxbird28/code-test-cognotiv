@@ -8,7 +8,8 @@ module.exports = {
         'black-1': '#1F1F1F',
         'white-transparent': 'rgba(255, 255, 255, 0.5)',
         'grey-1': 'rgba(217, 217, 217, 1)',
-        'grey-2': 'rgba(45, 45, 45, 0.5)'
+        'grey-2': 'rgba(45, 45, 45, 0.5)',
+        'grey-3': '#2D2D2D'
       },
       fontSize: {
         '1xxl': ['175px', {lineHeight: '1'}],

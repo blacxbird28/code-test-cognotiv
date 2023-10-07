@@ -17,13 +17,14 @@
     </div>
 
     <button @click="onHandleChange('About Us');" 
-      class="absolute bottom-0 right-0 bg-light-yellow px-[35px] py-[17px] rounded-[10px] text-white text-2xl font-bold transition ease-out-expo duration-700 delay-150"
+      class="absolute bottom-0 right-0 bg-light-yellow px-[35px] py-[17px] rounded-[10px] text-white text-2xl font-bold transition ease-in delay-150
+        hover:bg-white-transparent 
+        hover:text-grey-3"
       :class="{
           'translate-y-0 opacity-100':activeContent === name,
-          'translate-y-[200%] opacity-0':activeContent !== name,
+          'translate-y-[200px] opacity-0':activeContent !== name,
           'translate-y-[30px]':windowHeight < 1024,
           'translate-y-0':windowHeight >= 1024
-
       }">Learn more</button>
   </div>
 </template>
